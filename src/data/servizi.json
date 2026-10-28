@@ -1,0 +1,48 @@
+[
+  {
+    "id": "carta-identita",
+    "titolo": "Rinnovo carta d'identità",
+    "descrizione": "Come rinnovare la carta d'identità elettronica (CIE) alla scadenza. Testo di esempio: verificare con il Comune prima della pubblicazione reale.",
+    "passaggi": [
+      "Prenota un appuntamento allo sportello anagrafe.",
+      "Porta la vecchia carta d'identità, anche scaduta, e una fototessera recente.",
+      "Presentati all'appuntamento e firma la richiesta.",
+      "Ritira il documento nei tempi indicati dall'ufficio."
+    ],
+    "documenti": ["Carta d'identità in scadenza o scaduta", "Fototessera recente", "Codice fiscale"],
+    "costo": "Da indicare con il Comune",
+    "tempi": "Da indicare con il Comune",
+    "ufficio": "Servizi Demografici (esempio)",
+    "fonte": "dato fittizio"
+  },
+  {
+    "id": "cambio-residenza",
+    "titolo": "Cambio di residenza",
+    "descrizione": "Come comunicare un cambio di indirizzo. Testo di esempio.",
+    "passaggi": [
+      "Prenota un appuntamento allo sportello anagrafe.",
+      "Presenta la dichiarazione di residenza compilata.",
+      "Attendi la verifica dell'ufficio."
+    ],
+    "documenti": ["Documento di identità", "Codice fiscale", "Dichiarazione di residenza"],
+    "costo": "Da indicare con il Comune",
+    "tempi": "Da indicare con il Comune",
+    "ufficio": "Servizi Demografici (esempio)",
+    "fonte": "dato fittizio"
+  },
+  {
+    "id": "segnalazione-buca",
+    "titolo": "Segnalazione di una buca o di un disservizio",
+    "descrizione": "Come segnalare un problema sul suolo pubblico. Testo di esempio.",
+    "passaggi": [
+      "Descrivi il problema e indica il punto preciso.",
+      "Allega una foto, se possibile.",
+      "Ricevi un numero di pratica per seguire la segnalazione."
+    ],
+    "documenti": ["Nessun documento richiesto"],
+    "costo": "Gratuito",
+    "tempi": "Da indicare con il Comune",
+    "ufficio": "Ufficio Lavori pubblici (esempio)",
+    "fonte": "dato fittizio"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  { "id": "1", "nome": "Scuola primaria di esempio", "categoria": "istruzione", "lat": 45.4035, "lng": 9.2735, "indirizzo": "Via fittizia 1", "orari": "08:00-16:00 (esempio)", "telefono": "000 000000", "accessibile": true, "fonte": "dato fittizio" },
+  { "id": "2", "nome": "Nido dimostrativo", "categoria": "istruzione", "lat": 45.4010, "lng": 9.2765, "indirizzo": "Via fittizia 5", "orari": "07:30-17:30 (esempio)", "telefono": "000 000001", "accessibile": true, "fonte": "dato fittizio" },
+  { "id": "3", "nome": "Ufficio demo Servizi Demografici", "categoria": "uffici", "lat": 45.4021, "lng": 9.2744, "indirizzo": "Piazza fittizia 2", "orari": "lun-ven 08:30-12:30 (esempio)", "telefono": "000 000002", "accessibile": true, "fonte": "dato fittizio" },
+  { "id": "4", "nome": "Farmacia dimostrativa", "categoria": "farmacie", "lat": 45.4030, "lng": 9.2720, "indirizzo": "Via fittizia 9", "orari": "09:00-19:30 (esempio)", "telefono": "000 000003", "accessibile": false, "fonte": "dato fittizio" },
+  { "id": "5", "nome": "Parco di esempio", "categoria": "verde", "lat": 45.3995, "lng": 9.2730, "indirizzo": "Parco fittizio", "orari": "sempre aperto (esempio)", "telefono": "", "accessibile": true, "fonte": "dato fittizio" },
+  { "id": "6", "nome": "Comando Polizia Locale demo", "categoria": "sicurezza", "lat": 45.4005, "lng": 9.2790, "indirizzo": "Via fittizia 12", "orari": "24 ore (esempio)", "telefono": "000 000004", "accessibile": true, "fonte": "dato fittizio" },
+  { "id": "7", "nome": "Cimitero dimostrativo", "categoria": "cimitero", "lat": 45.4050, "lng": 9.2700, "indirizzo": "Via fittizia 20", "orari": "08:00-18:00 (esempio)", "telefono": "", "accessibile": false, "fonte": "dato fittizio" }
+]

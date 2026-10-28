@@ -1,0 +1,4 @@
+[
+  { "id": "a1", "tipo": "urgente", "titolo": "Chiusura stradale di esempio", "testo": "Via fittizia chiusa al traffico per lavori di esempio dalle 8:00 alle 18:00. Messaggio dimostrativo.", "data": "2026-10-27", "fonte": "dato fittizio" },
+  { "id": "a2", "tipo": "informativo", "titolo": "Apertura sportello straordinario di esempio", "testo": "Sportello aperto il sabato mattina in via di prova. Messaggio dimostrativo.", "data": "2026-10-20", "fonte": "dato fittizio" }
+]

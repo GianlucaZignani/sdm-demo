@@ -1,0 +1,135 @@
+:root {
+  --colore-testo: #1a1a1a;
+  --colore-sfondo: #ffffff;
+  --colore-primario: #1f6fb5;
+  --colore-bordo: #c9d3dd;
+  --dimensione-testo: 16px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: var(--dimensione-testo);
+  color: var(--colore-testo);
+  background: var(--colore-sfondo);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app.testo-grande { --dimensione-testo: 20px; }
+.app.alto-contrasto {
+  --colore-testo: #000000;
+  --colore-sfondo: #ffffff;
+  --colore-primario: #00335c;
+  --colore-bordo: #000000;
+}
+
+.intestazione {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: var(--colore-primario);
+  color: #fff;
+}
+.intestazione h1 { font-size: 1.3em; margin: 0; }
+.avviso-demo { margin: 4px 0 0; font-weight: bold; background: #ffd54f; color: #000; padding: 2px 6px; display: inline-block; }
+
+.impostazioni-accessibilita button,
+button {
+  font: inherit;
+  padding: 8px 12px;
+  border: 2px solid var(--colore-bordo);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--colore-testo);
+  cursor: pointer;
+  min-height: 44px;
+}
+.impostazioni-accessibilita button[aria-pressed='true'] {
+  background: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 3px solid #ffb300;
+  outline-offset: 2px;
+}
+
+.contenuto {
+  flex: 1;
+  padding: 12px 16px 90px;
+}
+
+.filtri {
+  margin-bottom: 12px;
+}
+.filtri-azioni { display: flex; gap: 8px; margin-bottom: 8px; }
+.legenda { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 6px; }
+.legenda label { display: flex; align-items: center; gap: 6px; min-height: 36px; cursor: pointer; }
+.pallino { width: 14px; height: 14px; border-radius: 50%; display: inline-block; border: 1px solid #000; }
+
+.mappa-contenitore { position: relative; }
+.mappa { width: 100%; height: 60vh; min-height: 360px; border: 1px solid var(--colore-bordo); border-radius: 8px; }
+
+.scheda-luogo {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  background: #fff;
+  color: #000;
+  padding: 16px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  max-height: 60%;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+.scheda-luogo h2 { margin-top: 0; font-size: 1.2em; }
+
+.barra-inferiore {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #fff;
+  border-top: 2px solid var(--colore-bordo);
+}
+.barra-inferiore button {
+  border: none;
+  border-radius: 0;
+  min-height: 64px;
+  font-weight: bold;
+}
+.barra-inferiore button.attiva {
+  background: var(--colore-primario);
+  color: #fff;
+}
+
+.lista-card { list-style: none; padding: 0; display: grid; gap: 10px; }
+.card {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.card span { font-size: 0.9em; }
+
+.pagina-servizio h2 { margin-top: 12px; }
+.avviso { border: 2px solid var(--colore-bordo); border-radius: 8px; padding: 12px; list-style: none; }
+.avviso.urgente { border-color: #c62828; background: #fdecea; }
+.avviso h3 { margin: 4px 0; }
+.etichetta { font-weight: bold; margin: 0; font-size: 0.85em; }
+.fonte { font-size: 0.85em; font-style: italic; color: #555; }
